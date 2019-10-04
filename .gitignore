@@ -1,0 +1,16 @@
+/node_modules
+/dist
+/dev
+
+logs
+*.log
+npm-debug.log*
+.npm
+.eslintcache
+.env
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/extentions.json
+!.vscode/settings.json

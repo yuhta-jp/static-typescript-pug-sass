@@ -1,0 +1,67 @@
+{
+  "name": "typescript-sass-pug-starter-kit",
+  "version": "1.0.0",
+  "description": "TypeScript with Sass and Pug Starter Kit",
+  "main": "src/ts/main.ts",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "watch": "webpack --mode=development -w",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [
+    "typescript",
+    "sass",
+    "pug",
+    "webpack",
+    "vscode"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "autoprefixer": "^9.6.1",
+    "browserslist": "^4.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "file-loader": "^4.2.0",
+    "glob": "^7.1.4",
+    "globule": "^1.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.18.2",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "purgecss-webpack-plugin": "^1.6.0",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
+    "source-map-loader": "^0.2.4",
+    "stylelint": "^11.0.0",
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-recommended-scss": "^4.0.0",
+    "stylelint-scss": "^3.11.1",
+    "terser-webpack-plugin": "^2.1.2",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0"
+  }
+}
